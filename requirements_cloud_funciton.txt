@@ -1,0 +1,5 @@
+functions-framework
+smtplib
+flask
+google-cloud-secret-manager
+email

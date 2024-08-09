@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+        }}
+        .container {{
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }}
+        .header {{
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }}
+        .content {{
+            padding: 20px;
+        }}
+        .button {{
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }}
+        .footer {{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #aaaaaa;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MON ENTREPRISE</h1>
+        </div>
+        <div class="content">
+            <p>Cher/Chère {recipient_name},</p>
+            <p>Nous avons bien reçu votre formulaire et nous vous en remercions.</p>
+            <p>Vous pouvez dès à présent prendre rendez-vous directement via le lien suivant :</p>
+            <a href="{appointment_link}" class="button">Prendre rendez-vous</a>
+            <p>Si vous avez des questions ou besoin de plus d'informations, n'hésitez pas à nous contacter.</p>
+            <p>Cordialement,</p>
+            <p>[Votre Nom ou Nom de l'Entreprise]</p>
+            <p>[Votre Adresse E-mail]</p>
+            <p>[Votre Numéro de Téléphone]</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 MON ENTREPRISE. Tous droits réservés.</p>
+        </div>
+    </div>
+</body>
+</html>
